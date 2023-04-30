@@ -7,6 +7,8 @@ public class ScenenWechsel : MonoBehaviour
     public GameObject Scene1;
     public GameObject Scene2;
     public GameObject Scene3;
+    public GameObject player;
+    public Transform spawnPosition;
 
     public bool destination1;
     public bool destination2;
@@ -30,6 +32,8 @@ public class ScenenWechsel : MonoBehaviour
                 Scene2.SetActive(false);
                 Scene3.SetActive(true);
             }
+            Destroy(player);
+            Instantiate(player, spawnPosition);
         }
     }
 }
