@@ -26,8 +26,7 @@ public class InventoryManager : MonoBehaviour
     void SpawnNewItem(Item item, InventorySlot slot)
     {
         GameObject newItemGo = Instantiate(inventoryItemPrefab, slot.transform);
-        DraggableItem inventoryItem = newItemGo.GetComponent<DraggableItem>();
-        // only spawns item sprite into inventory
-        inventoryItem.InitialiseItem(item);
+        DraggableItem draggableItem = newItemGo.GetComponent<DraggableItem>();
+        draggableItem.InitialiseItem(item);
     }
 }

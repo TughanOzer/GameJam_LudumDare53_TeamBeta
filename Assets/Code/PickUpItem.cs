@@ -23,6 +23,7 @@ public class PickupItem : MonoBehaviour
         {
             // fügt das Item dem Inventar hinzu
             inventoryManager.AddItem(item);
+            pickupMessage.gameObject.SetActive(false);
             // Zerstört das Spielobjekt, das das Item enthält
             Destroy(gameObject);
         }
