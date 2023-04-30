@@ -10,6 +10,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b38292a0007c5324191af51f211bcad4, type: 3}
-  m_Name: Item 1
+  m_Name: hairclip
   m_EditorClassIdentifier: 
-  image: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  image: {fileID: -536946744, guid: aa73f3b37b768a24881e15df634a5bec, type: 3}

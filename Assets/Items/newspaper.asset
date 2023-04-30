@@ -10,6 +10,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b38292a0007c5324191af51f211bcad4, type: 3}
-  m_Name: Item 2
+  m_Name: newspaper
   m_EditorClassIdentifier: 
-  image: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+  image: {fileID: 1243627453, guid: 581b33e6bc604384c86c78e3ac6c4a17, type: 3}
