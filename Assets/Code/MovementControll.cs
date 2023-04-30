@@ -1,8 +1,7 @@
 using UnityEngine;
 using UnityEngine.AI;
 
-public class MovementControll : MonoBehaviour
-{
+public class MovementControll : MonoBehaviour {
     public Camera cam;
     public NavMeshAgent agent;
     public Animator animator;
@@ -12,7 +11,7 @@ public class MovementControll : MonoBehaviour
             Ray ray = cam.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
 
-            if( Physics.Raycast(ray, out hit)) {
+            if (Physics.Raycast(ray, out hit)) {
                 agent.SetDestination(hit.point);
             }
         }
@@ -37,15 +36,20 @@ public class MovementControll : MonoBehaviour
     float lastPos;
     void MirrorSprite() {
         float direction = agent.nextPosition.x;
-        //Debug.Log(direction);
 
-        if(direction < lastPos) {
+        if (direction < lastPos) {
             spriteObject.flipX = true;
         }
-        else if(direction > lastPos) {
+        else if (direction > lastPos) {
             spriteObject.flipX = false;
         }
         lastPos = direction;
+    }
+
+    public GameObject[] cameraObj;
+    private void Awake() {
+        cameraObj = GameObject.FindGameObjectsWithTag("MainCamera");
+        cam = cameraObj[0].GetComponent<Camera>();
     }
 
 }

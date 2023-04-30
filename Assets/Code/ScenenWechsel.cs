@@ -8,6 +8,7 @@ public class ScenenWechsel : MonoBehaviour
     public GameObject Scene2;
     public GameObject Scene3;
     public GameObject player;
+    private GameObject[] oldPlayer;
     public Transform spawnPosition;
 
     public bool destination1;
@@ -20,19 +21,21 @@ public class ScenenWechsel : MonoBehaviour
             if (destination1) {
                 Scene1.SetActive(true);
                 Scene2.SetActive(false);
-                Scene3.SetActive(false);
+                //Scene3.SetActive(false);
             }
             else if (destination2) {
                 Scene1.SetActive(false);
                 Scene2.SetActive(true);
-                Scene3.SetActive(false);
+                //Scene3.SetActive(false);
             }
             else if (destination3) {
                 Scene1.SetActive(false);
                 Scene2.SetActive(false);
-                Scene3.SetActive(true);
+                //Scene3.SetActive(true);
             }
-            Destroy(player);
+            Debug.Log("Destroyed");
+            oldPlayer = GameObject.FindGameObjectsWithTag("Player");
+            Destroy(oldPlayer[0]);
             Instantiate(player, spawnPosition);
         }
     }
