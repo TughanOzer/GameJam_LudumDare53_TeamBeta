@@ -8,5 +8,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/AAA-Final Build.unity
     guid: a3db9cd5774249e428e9cf90964de7e6
+  - enabled: 1
+    path: Assets/Scenes/A-MainMenu.unity
+    guid: f1f14af8e941c2c4c9ebd93d01f5e585
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
