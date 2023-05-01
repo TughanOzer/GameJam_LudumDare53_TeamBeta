@@ -36,6 +36,9 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
     public void OnDrag(PointerEventData eventData) 
     {
         Debug.Log("Dragging");
+        if(item.name == "cassette") {
+            Debug.Log(item);
+        }
         // Item follows mouse position while dragging
         transform.position = Input.mousePosition; 
     }

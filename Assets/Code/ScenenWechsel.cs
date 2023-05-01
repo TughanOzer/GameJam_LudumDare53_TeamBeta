@@ -21,17 +21,17 @@ public class ScenenWechsel : MonoBehaviour
             if (destination1) {
                 Scene1.SetActive(true);
                 Scene2.SetActive(false);
-                //Scene3.SetActive(false);
+                Scene3.SetActive(false);
             }
             else if (destination2) {
                 Scene1.SetActive(false);
                 Scene2.SetActive(true);
-                //Scene3.SetActive(false);
+                Scene3.SetActive(false);
             }
             else if (destination3) {
                 Scene1.SetActive(false);
                 Scene2.SetActive(false);
-                //Scene3.SetActive(true);
+                Scene3.SetActive(true);
             }
             oldPlayer = GameObject.FindGameObjectsWithTag("Player");
             oldPlayer[0].transform.position = spawnPosition.transform.position;
