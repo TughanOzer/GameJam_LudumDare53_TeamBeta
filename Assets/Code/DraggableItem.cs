@@ -35,10 +35,30 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
     // Player is dragging
     public void OnDrag(PointerEventData eventData) 
     {
-        Debug.Log("Dragging");
-        if(item.name == "cassette") {
-            Debug.Log(item);
+        //Debug.Log("Dragging");
+
+        if (Input.GetMouseButtonUp(0)) {
+
+            RaycastHit hit;
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            if (Physics.Raycast(ray, out hit, 100.0f)) {
+                Debug.Log("Pew");
+
+                if (hit.collider.CompareTag("Arnold")) {
+                    if (item.name == "cassette") {
+                        Debug.Log("Es funktioniert");
+                    }
+
+                }
+                else if (hit.collider.tag == "Susan") {
+
+
+                }
+
+                    
+            }
         }
+
         // Item follows mouse position while dragging
         transform.position = Input.mousePosition; 
     }
