@@ -35,7 +35,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.23, y: -3.61}
+  m_AnchoredPosition: {x: 1.09, y: -1.8}
   m_SizeDelta: {x: 97.7, y: 47.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &68452759364063766
@@ -146,7 +146,7 @@ GameObject:
   - component: {fileID: 7430963314874616411}
   - component: {fileID: 6973505664447774059}
   m_Layer: 0
-  m_Name: pancakes
+  m_Name: newspaper
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -169,7 +169,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 2.325, y: 2.2}
+  m_AnchoredPosition: {x: 2.325, y: 0.67}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
 --- !u!212 &6973505664447774059
@@ -365,5 +365,5 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Radius: 0.69
+  m_Center: {x: 0, y: 0.57, z: 0}
