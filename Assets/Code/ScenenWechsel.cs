@@ -35,6 +35,7 @@ public class ScenenWechsel : MonoBehaviour
             }
             Debug.Log("Destroyed");
             oldPlayer = GameObject.FindGameObjectsWithTag("Player");
+            //Player moven anstatt Respawn
             Destroy(oldPlayer[0]);
             Instantiate(player, spawnPosition);
         }
