@@ -37,27 +37,12 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
     {
         //Debug.Log("Dragging");
 
-        if (Input.GetMouseButtonUp(0)) {
-
-            RaycastHit hit;
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            if (Physics.Raycast(ray, out hit, 100.0f)) {
-                Debug.Log("Pew");
-
-                if (hit.collider.CompareTag("Arnold")) {
-                    if (item.name == "cassette") {
-                        Debug.Log("Es funktioniert");
-                    }
-
-                }
-                else if (hit.collider.tag == "Susan") {
-
-
-                }
-
-                    
-            }
+        if (item) {
+            PlayerPrefs.SetString("item", item.name);
+            PlayerPrefs.SetString("dragging", "true");
         }
+
+        Debug.Log(item.name);
 
         // Item follows mouse position while dragging
         transform.position = Input.mousePosition; 
@@ -66,9 +51,11 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
     // Player stops drag
     public void OnEndDrag(PointerEventData eventData) 
     {
+        PlayerPrefs.SetString("dragging", "false");
         Debug.Log("End Drag");
         transform.SetParent(parentAfterDrag);
         // interaction with item possible again after dragging
         image.raycastTarget = true;             
     }
+
 }
