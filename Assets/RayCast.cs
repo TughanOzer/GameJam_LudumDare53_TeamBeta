@@ -50,10 +50,10 @@ public class RayCast : MonoBehaviour
                         Destroy(hit.collider.gameObject);
                     }
                     else if (itemName == "collar") {
-                        DialogSteto.GetComponent<DialogTrigger>().TriggerDialog();
+                        Dialogcollar.GetComponent<DialogTrigger>().TriggerDialog();
                     }
                     else if (itemName == "stethoscope") {
-                        Dialogcollar.GetComponent<DialogTrigger>().TriggerDialog();
+                        DialogSteto.GetComponent<DialogTrigger>().TriggerDialog();
                     }
                     else if (itemName == "heart") {
                         Destroy(hit.collider.gameObject);

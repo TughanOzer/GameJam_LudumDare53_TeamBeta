@@ -184,8 +184,7 @@ MonoBehaviour:
     sentences:
     - '*Handing over stethoscope*'
     - "Mara: Here, didn\u2019t you want to be a doctor?"
-    - "Lost Soul: \u2026DON\u2019T\u2026TOUCH\u2026STUFF\u2026NIIIIICHT\u2026"
-    - "Mara: o-ok\u2026 I\u2019m sorry\u2026"
+    - "Lost Soul: \u2026DON\u2019T\u2026TOUCH\u2026STUFF\u2026DOOOoont\u2026"
     - "Mara: o-ok\u2026 I\u2019m sorry\u2026"
 --- !u!1 &307313870930181668
 GameObject:
@@ -293,8 +292,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 459166160334866971}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.76, y: -3.395, z: -25.51}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.39, y: -3.4879994, z: -30.089998}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -441,9 +440,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1505435827484852358}
-  m_LocalRotation: {x: -0.095625274, y: -0, z: -0, w: 0.9954175}
-  m_LocalPosition: {x: -18.32, y: 3.29, z: -28.86}
-  m_LocalScale: {x: 1.6572925, y: 11.559696, z: -3.472165}
+  m_LocalRotation: {x: -0.09439574, y: -0.15911147, z: 0.015285124, w: 0.98261863}
+  m_LocalPosition: {x: -8.977462, y: -2.6978102, z: -29.040226}
+  m_LocalScale: {x: 0.34128782, y: 1.2483315, z: -57.04875}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8581941496175998912}
@@ -933,7 +932,7 @@ MonoBehaviour:
   Scene2: {fileID: 9105471991251519788}
   Scene3: {fileID: 6532626524587404573}
   player: {fileID: 576617717524078107, guid: 7584a16bae349c94c9ab8920988c3bd4, type: 3}
-  spawnPosition: {fileID: 1008120949526046171}
+  spawnPosition: {fileID: 1609269921297427102}
   destination1: 0
   destination2: 0
   destination3: 1
@@ -988,8 +987,7 @@ MonoBehaviour:
     - 'Mara: I f-found something from your c-cat.'
     - "Lost Soul: \u2026 You\u2026 have left\u2026"
     - 'Mara: W-What???'
-    - 'Mara: W-What???'
-    - "Lost Soul: Monster: \u2026"
+    - "Lost Soul: \u2026"
     - 'Mara: (I have left? What have I left?)'
 --- !u!1 &2213517062378759639
 GameObject:
@@ -1027,10 +1025,10 @@ RectTransform:
   m_Father: {fileID: 4391398428481721197}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -11.518127, y: -381.8096}
-  m_SizeDelta: {x: 851.5157, y: 196.3745}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: -11.518127, y: 98.1904}
+  m_SizeDelta: {x: 851.5157, y: 196.37451}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5886793668404770010
 CanvasRenderer:
@@ -1762,9 +1760,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4626960255649890363}
-  m_LocalRotation: {x: -0.095625274, y: -0, z: -0, w: 0.9954175}
-  m_LocalPosition: {x: -18.32, y: 3.29, z: -28.86}
-  m_LocalScale: {x: 1.6572925, y: 11.559696, z: -3.472165}
+  m_LocalRotation: {x: -0.094649814, y: -0.1418151, z: 0.013623538, w: 0.9852636}
+  m_LocalPosition: {x: -13.91, y: 3.230002, z: -29.170002}
+  m_LocalScale: {x: 0.7764104, y: 11.559696, z: -28.03579}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8338906128331867583}
@@ -1944,9 +1942,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5515321156204720402}
-  m_LocalRotation: {x: -0.095625274, y: -0, z: -0, w: 0.9954175}
-  m_LocalPosition: {x: 13.28, y: 3.66, z: -19.33}
-  m_LocalScale: {x: 1.6572925, y: 11.559696, z: -5.9110136}
+  m_LocalRotation: {x: -0.095354505, y: 0.07485418, z: -0.007190905, w: 0.99259895}
+  m_LocalPosition: {x: 8.999296, y: 2.2286875, z: -26.728884}
+  m_LocalScale: {x: 0.65400076, y: 11.559696, z: -25.66438}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 495300158137455222}
@@ -3404,6 +3402,30 @@ PrefabInstance:
       propertyPath: Dialogcollar
       value: 
       objectReference: {fileID: 2129272298515791902}
+    - target: {fileID: 8274504990936948371, guid: 2984c826508fce94b87f38dc4810f8c2, type: 3}
+      propertyPath: 'dialog.sentences.Array.data[4]'
+      value: "Lost Soul: \u2026"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8274504990936948371, guid: 2984c826508fce94b87f38dc4810f8c2, type: 3}
+      propertyPath: 'dialog.sentences.Array.data[6]'
+      value: "Lost Soul : \u2026I want\u2026 Susan\u2026 "
+      objectReference: {fileID: 0}
+    - target: {fileID: 8274504990936948371, guid: 2984c826508fce94b87f38dc4810f8c2, type: 3}
+      propertyPath: 'dialog.sentences.Array.data[8]'
+      value: '*Mara gives the first heart*'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8274504990936948371, guid: 2984c826508fce94b87f38dc4810f8c2, type: 3}
+      propertyPath: 'dialog.sentences.Array.data[9]'
+      value: "Lost Soul: \u2026ple-ase\u2026 get Sus-an\u2026Mara\u2026"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8694011309777116622, guid: 2984c826508fce94b87f38dc4810f8c2, type: 3}
+      propertyPath: 'dialog.sentences.Array.data[0]'
+      value: '*Sports newspaper is handed over:*'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8694011309777116622, guid: 2984c826508fce94b87f38dc4810f8c2, type: 3}
+      propertyPath: 'dialog.sentences.Array.data[1]'
+      value: 'Mara: Are you a fan of s-sport?'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -3620,6 +3642,18 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5353889577899438807, guid: 7d187974b7d334a44b78074ea9f29052, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5353889577899438807, guid: 7d187974b7d334a44b78074ea9f29052, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1404
+      objectReference: {fileID: 0}
+    - target: {fileID: 5353889577899438807, guid: 7d187974b7d334a44b78074ea9f29052, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 960
+      objectReference: {fileID: 0}
     - target: {fileID: 6137431217135206944, guid: 7d187974b7d334a44b78074ea9f29052, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -3703,13 +3737,34 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3143093662512175651, guid: 7d187974b7d334a44b78074ea9f29052, type: 3}
       insertIndex: 0
       addedObject: {fileID: 5157128179509686296}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8553314075679515859, guid: 7d187974b7d334a44b78074ea9f29052, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 232634928300718043}
   m_SourcePrefab: {fileID: 100100000, guid: 7d187974b7d334a44b78074ea9f29052, type: 3}
 --- !u!224 &4391398428481721197 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3143093662512175651, guid: 7d187974b7d334a44b78074ea9f29052, type: 3}
   m_PrefabInstance: {fileID: 1688817502601955662}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &7051681848890797469 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8553314075679515859, guid: 7d187974b7d334a44b78074ea9f29052, type: 3}
+  m_PrefabInstance: {fileID: 1688817502601955662}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &232634928300718043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7051681848890797469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 420418e7653458945b9f485165ab0032, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movedObjectToRoot: {fileID: 7051681848890797469}
 --- !u!114 &7812259339075875802 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8864591395836738196, guid: 7d187974b7d334a44b78074ea9f29052, type: 3}
