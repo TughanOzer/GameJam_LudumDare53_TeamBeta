@@ -10,7 +10,7 @@ public class MoveParent : MonoBehaviour
     void Start()
     {
         movedObjectToRoot.transform.SetParent(null);
-        movedObjectToRoot.transform.parent = null;
+        
         Debug.Log("This");
     }
 }

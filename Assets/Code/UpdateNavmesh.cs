@@ -11,7 +11,7 @@ public class UpdateNavmesh : MonoBehaviour
         
 
         surface.BuildNavMesh();
-        InvokeRepeating("UpdateMesh", 2f, 2f);
+        InvokeRepeating("UpdateMesh", 2f, 0.5f);
     }
 
     private void UpdateMesh() {
